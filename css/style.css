@@ -1,9 +1,67 @@
 .fond1 {
-    background:url("../image/1.jpg");
+    background:url("../image/1.jpg") no-repeat fixed;
+    background-size: contain;
+    height: 600px;
+    position: relative;
+}
+
+.margen {
     padding-left: 10%;
     padding-right: 10%;
 }
 
 .colorwhite {
     color:#FFF;
+}
+
+.colors {
+   
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight:600;
+}
+
+.ubicacion {
+    color: #E62026;
+}
+
+.emenu:hover {
+    background-color: #EC4141;
+}
+
+.emenu {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.barra {
+    background-color: rgba(0, 0, 0, 0.330) ;
+    font-weight:600;
+}
+
+.cinta1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.abajo {
+    position: absolute;
+    bottom: 65px;
+}
+
+.fond2 {
+    background: #EC4141;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.centrado {
+    text-align: center;
+}
+
+.negrita {
+    font-weight: bolder;
+    font-size: 35px;
 }

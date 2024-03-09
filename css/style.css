@@ -1,6 +1,7 @@
+/* Estilo para primer contenedor */
 .fond1 {
-    background:url("../image/1.jpg") no-repeat fixed;
-    background-size: contain;
+    background:url("../image/1.jpg") no-repeat fixed; /* Imagen de fondo */
+    background-size: contain; /* Adaptar imagen de fondo */
     height: 600px;
     position: relative;
 }
@@ -9,7 +10,7 @@
     padding-left: 10%;
     padding-right: 10%;
 }
-
+/* Clase para colo blanco de texto oficial */
 .colorwhite {
     color:#FFF;
 }
@@ -151,4 +152,9 @@ a {
 
 .margen2 {
     text-align: right;
+}
+
+a {
+    text-decoration: none !important;
+    color: #FFF;
 }

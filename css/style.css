@@ -120,3 +120,35 @@
     box-shadow: 2px 2px 2px #942020;
     cursor: pointer;
 }
+a {
+    text-decoration: none;
+}
+
+.fond5 {
+    background: black ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.lados {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.lista > li {
+    padding-bottom: 2%;
+}
+
+.cuadrado {
+    border: 1px solid #656565;
+    padding: 1%;
+}
+
+.margen2 {
+    text-align: right;
+}
